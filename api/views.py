@@ -34,6 +34,6 @@ def getRoutes(request):
             'body': "",
             'description': 'Delete company'
         },
-    ]
+    ],
 
     return JsonResponse(routes, safe=False)
